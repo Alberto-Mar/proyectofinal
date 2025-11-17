@@ -8,6 +8,5 @@ class Hermano(models.Model):
     segundo_apellido = models.CharField(max_length=100, blank=True, null=True)
     fecha_nacimiento = models.DateField()
     correo = models.EmailField(unique=True, verbose_name='Correo Electrónico', nulll=True, blank=True)  # 
-correo emailfield
 
 
